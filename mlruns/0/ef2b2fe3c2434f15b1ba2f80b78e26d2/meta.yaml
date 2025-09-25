@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/PC/School/ML_Adv/TP1/mlruns/0/ef2b2fe3c2434f15b1ba2f80b78e26d2/artifacts
+end_time: 1758771105346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef2b2fe3c2434f15b1ba2f80b78e26d2
+run_name: chill-conch-684
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758771068515
+status: 3
+tags: []
+user_id: PC
