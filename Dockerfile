@@ -7,7 +7,7 @@ WORKDIR /app
 #Copier le fichier des dépendances et les installer
 
 COPY requirements.txt .
-RUN pip install--no-cache-dir-r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
  
 #Copier le reste de l’application
 COPY . .
