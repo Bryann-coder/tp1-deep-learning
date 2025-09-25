@@ -1,0 +1,29 @@
+artifact_path: file:///C:/Users/PC/School/ML_Adv/TP1/mlruns/0/models/m-ee863e7b234d46609d5598b2870ece0c/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.9.23
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.20.0
+    model_type: keras
+    save_format: tf
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-ee863e7b234d46609d5598b2870ece0c
+model_size_bytes: 4907238
+model_uuid: m-ee863e7b234d46609d5598b2870ece0c
+prompts: null
+run_id: b3cb0a0765e944cabdf5f047f6034bb5
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1, 784]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    10]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-09-24 06:10:08.559798'

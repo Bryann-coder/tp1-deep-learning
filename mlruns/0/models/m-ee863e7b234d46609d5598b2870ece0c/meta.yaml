@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/PC/School/ML_Adv/TP1/mlruns/0/models/m-ee863e7b234d46609d5598b2870ece0c/artifacts
+creation_timestamp: 1758694189251
+experiment_id: '0'
+last_updated_timestamp: 1758694215983
+model_id: m-ee863e7b234d46609d5598b2870ece0c
+model_type: null
+name: model
+source_run_id: b3cb0a0765e944cabdf5f047f6034bb5
+status: 2
+status_message: null
