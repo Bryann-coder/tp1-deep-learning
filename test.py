@@ -59,8 +59,8 @@ if __name__ == "__main__":
                 predictions_triees = sorted(predictions_avec_probs, key=lambda item: item[1], reverse=True)
                 
                 # Afficher les 3 prédictions les plus probables
-                print("\n📊 Top 3 des prédictions les plus probables :")
-                for i, (chiffre, prob) in enumerate(predictions_triees[:3]):
+                print("\n📊 Top des prédictions les plus probables :")
+                for i, (chiffre, prob) in enumerate(predictions_triees[:10]):
                     print(f"   {i+1}. Chiffre {chiffre} (Confiance : {prob:.2%})")
 
         else:
